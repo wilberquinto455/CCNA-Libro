@@ -9,13 +9,13 @@ El CCNA ( Cisco Certifified Network Associate ) es una certificacion de nivel as
 - **Idioma:** Ingles(principal) / Japones
 - **Codigo:** 200-301.
 
-  ## Temario Oficial
-  - Fundamentos de redes - 35%
-  - Acceso a la red - 20%
-  - IP Conectividad - 25%
-  - Servicios 10%
-  - Seguridad en redes 15%
-  - Automatizacion y Programabilidad 10%
+## Temario Oficial
+- Fundamentos de redes - 35%
+- Acceso a la red - 20%
+- IP Conectividad - 25%
+- Servicios 10%
+- Seguridad en redes 15%
+- Automatizacion y Programabilidad 10%
 
  ## Costo y vigencia
  -**Costo:** ~ $300 USD (Varia por pais)
@@ -27,4 +27,8 @@ El CCNA ( Cisco Certifified Network Associate ) es una certificacion de nivel as
  -Realizar simulacros para familiarizarse con el formato del examen.
  - Dedicacion y Esfuerzo.
 
- - 
+## Referencias
+- https://www.cisco.com/site/us/en/learn/training-certifications/exams/ccna.html
+- https://learningnetwork.cisco.com/s/ccna-exam-topics
+
+Tener presente el examen de certificacion CCNA es un simple examen, no te lo tomes como si fuera la prueba final de tu destino, tener presente que se puede fallar, pero tambien tener presente que fallar forma parte del proceso y te ayudara a fortalecerte. Por lo que vuelve a intentar hasta que lo logres.
