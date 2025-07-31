@@ -10,7 +10,7 @@ El CCNA ( Cisco Certifified Network Associate ) es una certificacion de nivel as
 - **Codigo:** 200-301.
 
 ## Temario Oficial
-- Fundamentos de redes - 35%
+- Fundamentos de redes - 20%
 - Acceso a la red - 20%
 - IP Conectividad - 25%
 - Servicios 10%
