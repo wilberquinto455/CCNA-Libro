@@ -31,8 +31,9 @@ Los **switches** son dispositivos que conectan múltiples dispositivos dentro de
 ![Diagrama Switch](images/dispositivos.jpg)
   
 - **Layer 3 (Capa de red)**: Además de conmutar, pueden enrutar paquetes entre diferentes redes, similar a un router.
-  
-![Diagrama Switch3](/images/dispositivos2.jpg)
+
+![Diagrama Switch3](images/dispositivos2.jpg)  
+
 
 
 ## 🔒 Firewall Next Generation
