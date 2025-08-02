@@ -20,7 +20,7 @@ En redes, **enrutar** se refiere al proceso de **dirigir paquetes de datos desde
 3. Consulta su tabla de enrutamiento.
 4. Envía el paquete por la interfaz adecuada.
 
-![Diagrama Router](router_diagram.png)
+![Diagrama Router](images/router.jpg)
 
 ## 🔀 Switch Layer 2 y Layer 3
 
