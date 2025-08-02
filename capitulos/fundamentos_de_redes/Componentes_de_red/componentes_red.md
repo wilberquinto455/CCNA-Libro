@@ -24,13 +24,13 @@ En redes, **enrutar** se refiere al proceso de **dirigir paquetes de datos desde
 
 ## 🔀 Switch Layer 2 y Layer 3
 
-Los **switches** son dispositivos que conectan múltiples dispositivos dentro de una red.
+Los **switches** son dispositivos que conectan múltiples dispositivos dentro de una red. 
 
 - **Layer 2 (Capa de enlace de datos)**: Conmutan paquetes usando direcciones MAC. Operan dentro de una misma red local.
-   ![Diagrama Switch](/images/switch.jpg)
+   ![Diagrama Switch2](/images/switch.jpg)
   
 - **Layer 3 (Capa de red)**: Además de conmutar, pueden enrutar paquetes entre diferentes redes, similar a un router.
-    ![Diagrama Switch](/images/layer3.png)
+    ![Diagrama Switch3](/images/layer3.png)
 
 
 ## 🔒 Firewall Next Generation
@@ -66,7 +66,7 @@ Un **Access Point (AP)** permite que los dispositivos se conecten a la red de fo
 - Conecta dispositivos Wi-Fi a la red cableada.
 - Puede operar en modo puente o repetidor.
 
-![Diagrama AP](ap_diagram.png)
+![Diagrama AP](images/AP.jpg)
 
 ## 🧠 Controladores
 
@@ -77,7 +77,7 @@ Los **controladores de red** gestionan múltiples APs y otros dispositivos de fo
 - Monitoreo del rendimiento.
 - Seguridad y actualizaciones centralizadas.
 
-![Diagrama Controladores](controller_diagram.png)
+![Diagrama Controladores](/images/controlador.jpg)
 
 ## 🗄️ Servidores
 
