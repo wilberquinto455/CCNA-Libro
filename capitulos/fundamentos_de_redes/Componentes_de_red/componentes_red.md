@@ -27,9 +27,11 @@ En redes, **enrutar** se refiere al proceso de **dirigir paquetes de datos desde
 Los **switches** son dispositivos que conectan múltiples dispositivos dentro de una red.
 
 - **Layer 2 (Capa de enlace de datos)**: Conmutan paquetes usando direcciones MAC. Operan dentro de una misma red local.
+   ![Diagrama Switch](/images/switch.jpg)
+  
 - **Layer 3 (Capa de red)**: Además de conmutar, pueden enrutar paquetes entre diferentes redes, similar a un router.
+    ![Diagrama Switch](/images/layer3.png)
 
-![Diagrama Switch](switch_diagram.png)
 
 ## 🔒 Firewall Next Generation
 
@@ -41,7 +43,7 @@ Un **firewall de próxima generación (NGFW)** protege la red contra accesos no 
 - Prevención de intrusiones (IPS).
 - Integración con antivirus y antimalware.
 
-![Diagrama Firewall](firewall_diagram.png)
+![Diagrama Firewall](images/firewall.jpg)
 
 ## 💻 Endpoints
 
@@ -54,7 +56,6 @@ Los **endpoints** son los dispositivos finales que se conectan a la red, como:
 
 Son los puntos donde los usuarios interactúan con la red y también los más vulnerables a ataques.
 
-![Diagrama Endpoints](endpoints_diagram.png)
 
 ## 📶 Punto de Acceso (AP)
 
@@ -88,7 +89,7 @@ Los **servidores** son computadoras especializadas que ofrecen servicios a otros
 - Servidor de correo
 - Servidor de base de datos
 
-![Diagrama Servidores](server_diagram.png)
+![Diagrama Servidores](images/servidor.jpg)
 
 ## 🔌 Tecnología PoE
 
@@ -99,4 +100,4 @@ Los **servidores** son computadoras especializadas que ofrecen servicios a otros
 - Ideal para cámaras IP, APs y teléfonos VoIP.
 - Simplifica la instalación.
 
-![Diagrama PoE](poe_diagram.png)
+![Diagrama PoE](images/PoE.jpg)
