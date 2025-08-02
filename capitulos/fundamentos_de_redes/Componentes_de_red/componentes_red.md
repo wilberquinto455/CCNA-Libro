@@ -10,9 +10,9 @@ Un **router** es un dispositivo de **capa 3 (red)** que permite enrutar paquetes
 
 En redes, **enrutar** se refiere al proceso de **dirigir paquetes de datos desde su origen hasta su destino**, utilizando la mejor ruta disponible.
 
-#### Ejemplo:
-- Verifica que el paquete esté enrutado del **Router A** al **Router B**.
-- El router consulta su **tabla de enrutamiento** para decidir por dónde enviar el paquete.
+### 🧠 Ejemplo:
+- Un paquete enviado desde una computadora en la red LAN debe llegar a un servidor en Internet. El router determina la mejor ruta y lo envía hacia el siguiente salto.
+
 
 ### Funcionamiento básico:
 1. Recibe el paquete en una interfaz.
@@ -34,7 +34,26 @@ Los **switches** son dispositivos que conectan múltiples dispositivos dentro de
 
 ![Diagrama Switch3](images/dispositivos2.jpg)  
 
+### Funcionamiento básico:
 
+1. **Recepción de trama:** El switch recibe una trama Ethernet desde uno de sus puertos.
+
+2. **Lectura de dirección MAC:** Examina la dirección MAC de destino contenida en la trama.
+
+3. **Consulta de tabla MAC:** El switch mantiene una tabla de direcciones MAC que asocia cada dirección con un puerto específico.
+
+4. **Conmutación:** Si la dirección MAC de destino está en la tabla, el switch envía la trama solo por el puerto correspondiente.
+Si no está, la trama se envía por todos los puertos (excepto el de entrada), comportamiento conocido como flooding.
+
+5. **Aprendizaje automático:** El switch aprende nuevas direcciones MAC observando el tráfico entrante y actualiza su tabla MAC.
+
+### 🧠 Ejemplo
+Supongamos que el PC A quiere enviar datos al PC B:
+
+- El switch recibe la trama desde el puerto donde está conectado el PC A.
+- Ve que la dirección MAC de destino pertenece al PC B.
+- Envía la trama solo por el puerto donde está conectado el PC B.
+- Este proceso es rápido, eficiente y evita colisiones, especialmente en redes modernas con switches full-duplex.
 
 ## 🔒 Firewall Next Generation
 
