@@ -28,11 +28,11 @@ Los **switches** son dispositivos que conectan múltiples dispositivos dentro de
 
 - **Layer 2 (Capa de enlace de datos)**: Conmutan paquetes usando direcciones MAC. Operan dentro de una misma red local.
   
-![Diagrama Switch2](/images/switch.jpg)
+![Diagrama Switch2](/images/dispositivos.jpg)
   
 - **Layer 3 (Capa de red)**: Además de conmutar, pueden enrutar paquetes entre diferentes redes, similar a un router.
   
-![Diagrama Switch3](/images/layer3.png)
+![Diagrama Switch3](/images/dispositivos2.jpg)
 
 
 ## 🔒 Firewall Next Generation
