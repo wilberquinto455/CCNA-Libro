@@ -1,17 +1,16 @@
-# Componentes de red
+# Componentes de una red
+
+¿Alguna vez te has preguntado cuáles dispositivos intervienen en una red para establecer comunicación entre sí?
+Si es así, en este documento encontrarás una explicación clara y detallada sobre los principales dispositivos de red y cómo interactúan para permitir la conectividad.
       
-### **Guía Técnica de Componentes Esenciales de Red**
 
-Este documento proporciona un análisis técnico de los dispositivos fundamentales que constituyen una infraestructura de red. El objetivo es detallar su función, su proceso operativo y su posición dentro del modelo OSI para una comprensión integral.
-
-
-### **1. Router: Arquitecto de la Interconexión de Redes**
+## **1. Router: Arquitecto de la Interconexión de Redes**
 
 Un **router** es un dispositivo de **Capa 3 (Red)** del modelo OSI, cuya función principal es interconectar redes lógicamente separadas, como una Red de Área Local (LAN) con una Red de Área Amplia (WAN) o Internet.
 
 **Función Clave: Enrutamiento (Routing)**
 
-El enrutamiento es el proceso de seleccionar la ruta más eficiente para dirigir paquetes de datos desde su red de origen hasta su red de destino. Para lograrlo, el router utiliza las direcciones lógicas (direcciones IP) contenidas en los encabezados de los paquetes.
+El ruteo o enrutamiento es el proceso de seleccionar la ruta más eficiente para dirigir paquetes de datos desde su red de origen hasta su red de destino. Para lograrlo, el router utiliza las direcciones lógicas (direcciones IP) contenidas en los encabezados de los paquetes.
 
 **Proceso Operativo:**
 
@@ -21,7 +20,10 @@ El enrutamiento es el proceso de seleccionar la ruta más eficiente para dirigir
 4.  **Reenvío del Paquete:** Envía el paquete a través de la interfaz de salida correspondiente al siguiente \"salto\" (next hop) en la ruta hacia el destino final. Si el destino está en una red directamente conectada, lo envía a ese host.
 
 **Caso de Uso:**
-Un host en la red `192.168.1.0/24` necesita enviar datos a un servidor web en la IP `208.67.222.222`. El paquete llega al router (el gateway por defecto). El router, al no encontrar la red de destino en sus redes conectadas directamente, busca en su tabla de enrutamiento y lo reenvía a la interfaz que lo conecta con su proveedor de servicios de Internet (ISP).
+
+Supongamos que tu dispositivo que tiene el nombre de host Juan con identificacion personal 192.168.1.0/24 necesita enviar datos a pedro (servidor web) que tiene una identificacion `208.67.222.222`. Para que este envio se realize de manera sastifactoria debe el paquete llega al router (el gateway por defecto), (Querio darte mi perpectiva del router, este lo veo como una central de envio por correo, ejemplo servientrega, fedex etc. ellos tienen muchas direcciones registradas y alamcenan esta informacion del origen donde se esta enviando la info hacia el destino y tienen las respectivas direccionen por donde enviar el paquete para que el envio sea exitoso). El router, al no encontrar la red de destino en sus redes conectadas directamente, busca en su tabla de enrutamiento y lo reenvía a la interfaz que lo conecta con su proveedor de servicios de Internet (ISP).
+
+En sintesis el router es el arquitecto de las redes, es el encargado de enviar paquetes de origen a destino siempre seleccionando la mejor ruta, debido a esto a este proceso se le llama ruteo o enrutamiento.
 
 ---
 
