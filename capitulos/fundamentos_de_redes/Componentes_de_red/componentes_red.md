@@ -56,7 +56,7 @@ Estos como indica su nombre no son administrados, lo que quiere decir es que no 
 
 **Switch administrados**
 
-Como su nombre lo indica este tipo son dministrador, por lo que una persona en el ambito de redes lo puede gestionar y aplicar configuraciones. Adicional estos operan en la capa 2 (Enlace de datos) del modelo OSI. Estos son equipos inteligentes a diferencia de los switch no administrados, debido a que estos aprender las direcciones mac de origen asociada a un puerto y la mac de destino asociada a un puerto en especifico y en base a eso toman decisiones de envio de tramas. Adicional, Permiten ajustar la configuración de cada puerto, controlar el tráfico, y ofrecen funcionalidades como VLANs, calidad de servicio (QoS), y redundancia. 
+Como su nombre lo indica este tipo son administrados, por lo que una persona en el ambito de redes lo puede gestionar y aplicar configuraciones. Adicional estos operan en la capa 2 (Enlace de datos) del modelo OSI y de acuerdo  a si cuentan con caracterisiticas de router pueden operar tambien en capa 3, como vamos a ver mas adelante. Estos son equipos inteligentes a diferencia de los switch no administrados, debido a que estos aprenden las direcciones mac de origen asociada a un puerto y tambien la mac de destino asociada a un puerto en especifico y en base a eso toman decisiones de envio de tramas. Adicional los switch administrados, Permiten ajustar la configuración de cada puerto, controlar el tráfico, y ofrecen funcionalidades como VLANs, calidad de servicio (QoS), y redundancia. 
 
 **Características principales de los switches administrados:**
 
@@ -73,7 +73,7 @@ Como su nombre lo indica este tipo son dministrador, por lo que una persona en e
 3. Control de tráfico:Los switches no administrados no permiten controlar el tráfico, mientras que los administrados ofrecen opciones para priorizar tráfico, limitar ancho de banda, y configurar VLANs. 
 4. Seguridad: Los switches no administrados no ofrecen opciones de seguridad, mientras que los administrados permiten restringir el acceso y proteger la red. 
 
-Tambien dentro de los switch administrados encuentran dos categorias Switch capa 2 (estos son los tradicionales ) y  capa 3 (cuenta con funciones de comutacion y routeo).
+Tambien dentro de los switch administrados se encuentran dos categorias Switch capa 2 (estos son los tradicionales ) y  capa 3 (cuenta con funciones de comutacion y routeo).
 
 **Diferenciación Clave: Layer 2 vs. Layer 3**
 
