@@ -23,4 +23,5 @@ Esta forma de reenvio en una red de comunicacion es equipo a equipo. Por ejemplo
 Ahora hablemos del reenvio por broatcast este tipo de reenvio de direccionamiento Ip es muy comun y básicamente consiste en que un equipo envia un paquete, puede ser tu PC,  tu Pc envia el paquete y este es renviado a todos los dispositivos que. pertenecen al mismo dominio de difusion.
 
 ### Multicast
-Esta es la última forma de reeenvio de paquetes. Es un caso especial. el envio o reenvio de paquetes se hace 
+Esta es la última forma de reeenvio de paquetes. Es un caso especial, debido a que la forma de enviar es por grupos. Supingamos lo siguiente existe una oficina donde tu trabajas hay varias areas las mas comunes: recursos humanos, finanzas
+Soporte etc. El funcionamiento seria el siguiente, en ru area X quiere enviar un paquete a  otra area similar a la tuya a todos los Pc perteneciente a un area en específico, tu te preguntaras como se logra algo asi sin difundirlo en toda la red. lo que hace el envio multicast es por grupo. 
